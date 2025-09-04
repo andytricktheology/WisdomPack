@@ -31,11 +31,9 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center">
-              <span className="text-white font-bold text-lg">BW</span>
-            </div>
+            <img src="https://storage.googleapis.com/dualite-testing-user-uploads/1756962132915-Screenshot%202024-07-29%20at%2010.51.52%E2%80%AFAM.png" alt="Trick Theology Logo" className="w-10 h-10" />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Biblical Wisdom
+              Trick Theology
             </span>
           </Link>
 

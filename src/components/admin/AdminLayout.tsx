@@ -55,9 +55,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
         {/* Logo */}
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center">
-              <span className="text-white font-bold text-sm">BW</span>
-            </div>
+            <img src="https://storage.googleapis.com/dualite-testing-user-uploads/1756962132915-Screenshot%202024-07-29%20at%2010.51.52%E2%80%AFAM.png" alt="Trick Theology Logo" className="w-8 h-8" />
             <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
               Admin
             </span>

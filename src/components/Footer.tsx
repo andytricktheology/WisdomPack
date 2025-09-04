@@ -18,11 +18,9 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">BW</span>
-              </div>
+              <img src="https://storage.googleapis.com/dualite-testing-user-uploads/1756962132915-Screenshot%202024-07-29%20at%2010.51.52%E2%80%AFAM.png" alt="Trick Theology Logo" className="w-10 h-10" />
               <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Biblical Wisdom
+                Trick Theology
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4 max-w-md">
@@ -94,7 +92,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © 2025 Biblical Wisdom. All rights reserved. Unlocking divine truth for spiritual liberation.
+            © 2025 Trick Theology. All rights reserved. Unlocking divine truth for spiritual liberation.
           </p>
         </div>
       </div>

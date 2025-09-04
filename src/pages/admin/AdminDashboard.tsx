@@ -107,7 +107,7 @@ const AdminDashboard: React.FC = () => {
         >
           <h1 className="text-3xl font-bold mb-2">Welcome Back!</h1>
           <p className="text-white/90">
-            Manage your biblical wisdom platform from this central dashboard
+            Manage your Trick Theology platform from this central dashboard
           </p>
           <div className="mt-4 flex items-center text-white/80">
             <Calendar size={20} className="mr-2" />
@@ -196,7 +196,7 @@ const AdminDashboard: React.FC = () => {
             </div>
             <ResponsiveContainer width="100%" height={300}>
               <RechartsPieChart>
-                <Pie
+                <RechartsPieChart.Pie
                   data={regionData}
                   cx="50%"
                   cy="50%"
@@ -207,7 +207,7 @@ const AdminDashboard: React.FC = () => {
                   {regionData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}
-                </Pie>
+                </RechartsPieChart.Pie>
                 <Tooltip />
               </RechartsPieChart>
             </ResponsiveContainer>

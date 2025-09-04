@@ -15,7 +15,7 @@ const Blog: React.FC = () => {
       excerpt: "Discover the deeper symbolism and spiritual truths concealed within Christ's teachings through parables.",
       content: "Full blog post content here...",
       image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop",
-      author: "Biblical Wisdom Author",
+      author: "Trick Theology",
       date: "2025-01-15",
       category: "Theology",
       readTime: "8 min read"
@@ -26,7 +26,7 @@ const Blog: React.FC = () => {
       excerpt: "A comprehensive guide to understanding the prophetic visions and their relevance to modern times.",
       content: "Full blog post content here...",
       image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&h=400&fit=crop",
-      author: "Biblical Wisdom Author",
+      author: "Trick Theology",
       date: "2025-01-12",
       category: "Prophecy",
       readTime: "12 min read"
@@ -37,7 +37,7 @@ const Blog: React.FC = () => {
       excerpt: "Exploring the significance and spiritual authority contained within divine names in scripture.",
       content: "Full blog post content here...",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop",
-      author: "Biblical Wisdom Author",
+      author: "Trick Theology",
       date: "2025-01-10",
       category: "Spirituality",
       readTime: "6 min read"
@@ -61,7 +61,7 @@ const Blog: React.FC = () => {
           className="text-center mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-            Divine Wisdom Blog
+            Trick Theology Blog
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Explore profound Biblical insights, theological revelations, and spiritual wisdom

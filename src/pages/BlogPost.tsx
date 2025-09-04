@@ -30,7 +30,7 @@ const BlogPost: React.FC = () => {
       <p>As we study these profound teachings, we must approach them with humility and prayer, asking the Holy Spirit to illuminate their deeper meanings for our lives today.</p>
     `,
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=600&fit=crop",
-    author: "Biblical Wisdom Author",
+    author: "Trick Theology",
     date: "2025-01-15",
     category: "Theology",
     readTime: "8 min read"
