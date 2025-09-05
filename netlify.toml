@@ -1,0 +1,14 @@
+# Netlify configuration file
+
+# Build settings: Instructs Netlify how to build your site.
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+# Redirect rule for Single-Page Applications (SPAs):
+# This rule ensures that any direct navigation to a page (like /trickie/login)
+# serves the main index.html file, allowing React Router to handle the routing.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
